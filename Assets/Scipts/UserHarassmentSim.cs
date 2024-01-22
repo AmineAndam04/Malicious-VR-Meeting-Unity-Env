@@ -12,13 +12,13 @@ public class UserHarassmentSim : MonoBehaviour
     private GameObject[] otherAvatars;
     public float privateSpace = 2.5f;
     private GameObject targetedAvatar;
-    public float attackPeriod = 180f; // it was 50s
+    public float attackPeriod = 180f; 
     public int attackCount = 0;
     private GameObject previousTargetedAvatar;
 
     void Start()
     {
-        //Invoke("SpawnMaliciousAvatar", spawnDelay);
+        
         otherAvatars = GameObject.FindGameObjectsWithTag("Avatar");
     }
 
@@ -73,7 +73,6 @@ public class UserHarassmentSim : MonoBehaviour
                 sphereRenderer.material.color = originalColor ; 
                 // Reset the targeted avatar to null to choose a new target in the next attack.
                 targetedAvatar = null;
-                //sphereRenderer.material.color = originalColor ;
                 yield return new WaitForSeconds(attackPeriod);
                 
             }
@@ -82,7 +81,7 @@ public class UserHarassmentSim : MonoBehaviour
                 //maliciousAvatar.transform.position = Vector3.Lerp(maliciousAvatar.transform.position, targetedAvatar.transform.position, Time.deltaTime);
                 //Debug.Log("Distance" + distance);
             }
-            //Debug.Log(attackCount);
+            
             yield return null;
         
         }

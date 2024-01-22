@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectColorChanger : MonoBehaviour
 {
-    public GameObject objectPrefab; // Assign the object prefab you want to change color in the Inspector
+    public GameObject objectPrefab; 
     public float colorChangeInterval = 5.0f; // Time interval for color change in seconds
 
     private GameObject objectToChangeColor;

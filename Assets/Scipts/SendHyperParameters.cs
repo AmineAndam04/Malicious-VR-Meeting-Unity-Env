@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class SendHyperParameters : SideChannel
 {
-    List<float> hyperParameters = new List<float>() ; // = new List<float> {10f, 0.1f, 0.05f, 0.05f, 7.5f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f} ;
+    List<float> hyperParameters = new List<float>() ; 
     public SendHyperParameters()
     {
         

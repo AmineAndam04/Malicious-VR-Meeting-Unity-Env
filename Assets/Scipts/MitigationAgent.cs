@@ -11,15 +11,13 @@ public class TestAgent : Agent
 {
     
     private  string[] tagsToFind = {"collaborative","Obscure","Distraction","Avatar","AvatarMalicious"} ;
-    //public SendHyperParameters sendHyperParameters { get; private set; }
     private StatsRecorder statsRecorder;
     private bool episodeStarted = false;
 
     
      private int maxState = 148;
-    //[SerializeField] private int maxAction = 30;
     private Dictionary<string, int>  objectsCount = new Dictionary<string, int> ();
-    //private Dictionary<string,List<List<float>>> stateSpace = new Dictionary<string,List<List<float>>>() ; 
+    
     private float padValue = 9999f; 
     private int currentStateSize = 0;
     private int currentActionsSize = 0;
@@ -38,7 +36,7 @@ public class TestAgent : Agent
     private SendHyperParameters sendHyperParameters;
 
     private List<float> hyperParameters = new List<float>() ;
-    //private float beg = 55f;
+    
     private List<float> rewads = new List<float>() ;
     
     public GameObject EnvManager ;
@@ -112,7 +110,6 @@ public class TestAgent : Agent
             //Debug.Log(tag +"is" + objectsWithTag.Length);
             objectsCount[tag] =  objectsWithTag.Length;
             //Debug.Log("Nbr of "+ tag +" :"+objectsWithTag.Length);
-            //List<List<float>> values = new List<List<float>>(); 
             
             if (tag == "collaborative")
             {
@@ -121,14 +118,11 @@ public class TestAgent : Agent
                 {
                     CollabObject collab = new CollabObject(gameObject);
                     collabList.Add(collab);
-                    //sensor.AddObservation(gameObject.transform.localPosition);
                     sensor.AddObservation(collab.GetPosition());
                     //Dictionary<string, Vector3> box = utils.GetBoundingBox(gameObject);
                     //sensor.AddObservation(box["bounds"]);
                     sensor.AddObservation(collab.GetBB()["bounds"]);
                     currentStateSize += 6;
-                    
-                    
                 }
                 
             }
@@ -164,10 +158,6 @@ public class TestAgent : Agent
                     sensor.AddObservation(distrc.GetBB());
                     //sensor.AddObservation(utils.GetFrequencies(gameObject));
                     sensor.AddObservation(distrc.Getfreq());
-                    //sensor.AddObservation(utils.GetAlpha(gameObject));
-                    //sensor.AddObservation(distrc.GetAlpha());
-                    //currentStateSize += 9;
-                    //currentActionsSize += 6;
                     currentStateSize += 5;
                     currentActionsSize += 5;
                     
@@ -202,15 +192,11 @@ public class TestAgent : Agent
             
                     
         }
-        //Debug.Log(currentStateSize);
-        //sensor.AddObservation(beg);
-        //beg = 55;
         while(currentStateSize< maxState)
         {
             sensor.AddObservation(padValue);
             currentStateSize+=1;
         }
-        //Debug.Log(currentStateSize);
         }
 
         statsRecorder.Add("Nbr Obsc", obscList.Count);
@@ -401,7 +387,6 @@ public class TestAgent : Agent
         //SetReward((Reward1 + Reward2 + Reward3 + Reward4 + Reward5 + Reward6));
         SetReward(totalReward);
         
-        //sendHyperParameters.SendIndividualRewards(rewads);
         }
     } 
 

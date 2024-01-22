@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SphereColorChange : MonoBehaviour
 {
-    public float privateSpace = 1.5f; // distance threshold
-    //public Material sphereMaterial; 
+    public float privateSpace = 1.5f; 
+    
     private Renderer sphereRenderer ;
     private float checkInterval = 0.0f;
     private Color originalColor;
@@ -67,9 +67,8 @@ public class SphereColorChange : MonoBehaviour
         {
              sphereRenderer.material.color = originalColor;
         }
-            yield return new WaitForSeconds(checkInterval); // wait for the specified interval
-        }
+            yield return new WaitForSeconds(checkInterval); 
     }
-}
+}}
 
     
