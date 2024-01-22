@@ -38,7 +38,7 @@ public class UserHarassmentSim : MonoBehaviour
     IEnumerator AttackRoutine()
     {
         
-        while (maliciousAvatar != null && attackCount <2 )
+        while (maliciousAvatar != null )
         {
             
         
