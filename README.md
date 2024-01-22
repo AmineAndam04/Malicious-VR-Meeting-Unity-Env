@@ -1,8 +1,8 @@
 # VR-Meeting-Env
 Unity project for a Malicious VR meeting application
-
+<div align="center">
 <img width="700" alt="Screenshot-VR" src="https://github.com/AmineAndam04/Malicious-VR-Meeting-Env/assets/49843367/b1fe5306-5a0b-47e2-8732-12e38adf65d7">
-
+</div>
 
 ## How to get assets
 To personalize the project, you have to buy the following two assets from [CGTrader](https://www.cgtrader.com/): 
