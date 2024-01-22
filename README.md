@@ -1,7 +1,7 @@
 # VR-Meeting-Env
 Unity project for a Malicious VR meeting application
 
-<img width="1013" alt="Screenshot 2024-01-22 at 13 44 25" src="https://github.com/AmineAndam04/Malicious-VR-Meeting-Env/assets/49843367/b1fe5306-5a0b-47e2-8732-12e38adf65d7">
+<img width="700" alt="Screenshot-VR" src="https://github.com/AmineAndam04/Malicious-VR-Meeting-Env/assets/49843367/b1fe5306-5a0b-47e2-8732-12e38adf65d7">
 
 
 ## How to get assets
