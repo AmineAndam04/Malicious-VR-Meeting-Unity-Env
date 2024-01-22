@@ -9,6 +9,8 @@ The goal of this project is to create a testbed for research related to the secu
 <img width="700" alt="Screenshot-VR" src="https://github.com/AmineAndam04/Malicious-VR-Meeting-Env/assets/49843367/b1fe5306-5a0b-47e2-8732-12e38adf65d7">
 </div>
 
+## Attack demonstration
+An attack demonstration is available at this [Youtube video ](https://youtu.be/8i8viO-Etng?si=j1rkVkzOyUc4KUZH)
 
 ## How to Get Assets
 To personalize the project, you have to buy these two assets from [CGTrader](https://www.cgtrader.com/): 
