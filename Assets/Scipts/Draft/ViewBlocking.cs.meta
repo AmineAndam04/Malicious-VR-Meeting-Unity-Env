@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: fb4870a81ef78154f8b52f800a412459
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - maliciousObjectPrefab: {fileID: 265762500341644940, guid: 986ce999682efb04f91f9a6fadffa5c0, type: 3}
+  - collaboObjects: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
