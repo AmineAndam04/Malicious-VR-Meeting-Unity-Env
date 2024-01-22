@@ -12,6 +12,7 @@ The goal of this project is to create a testbed for research related to the secu
 ## Attack demonstration
 An attack demonstration is available at this [Youtube video ](https://youtu.be/8i8viO-Etng?si=j1rkVkzOyUc4KUZH)
 
+
 ## How to Get Assets
 To personalize the project, you have to buy these two assets from [CGTrader](https://www.cgtrader.com/): 
    1. [Metaverse Workroom Low-poly 3D model](https://www.cgtrader.com/3d-models/architectural/other/metaverse-workroom)
@@ -22,4 +23,4 @@ Nevertheless, if you want to use the project for research/academic purposes, ple
 We have changed the prefabs of the Metaverse Workroom asset. To have the same prefabs, please go to [How to re-order the prefabs](https://github.com/AmineAndam04/Malicious-VR-Meeting-Env/blob/main/Reorder-Prefabs-MetaWorkroom.md).
 
 ## Contact Us
-
+Question? Contact us on Twitter [@AmineAndam](https://twitter.com/AmineAndam)  or on Linkedin [ANDAM AMINE](https://www.linkedin.com/in/amineandam/).
